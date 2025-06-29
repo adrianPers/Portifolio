@@ -1,9 +1,9 @@
-import Header from "./components/Header";
+import RoutesApp from "./routes";
 
 const App = () =>  {
   return (
     <div className="App">
-      <Header />
+      <RoutesApp />
     </div>
   );
 }
