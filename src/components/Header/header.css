@@ -1,0 +1,90 @@
+.Header {
+    background: linear-gradient(90deg, rgb(19, 176, 200), rgb(20, 114, 196));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.nav-Header {
+    display: flex;
+    list-style: none;
+    /* border: 1px solid; */
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.nav-Header li {
+    /* background-color: rgb(22, 125, 214); */
+    font-size: 25px;
+    margin-inline: 10px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-Header li:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.button-menu {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.button-menu span {
+    font-size: 35px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .Header {
+        background: linear-gradient(90deg, rgb(19, 176, 200), rgb(20, 114, 196));
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .nav-Header {
+        flex-wrap: nowrap;
+        padding: 0px;
+        flex-direction: column;
+        background-color: rgb(19, 176, 200);
+        position: absolute;
+        left: -70%;
+        top: 0px;
+        height: 100vh;
+        width: 70%;
+        transition: 0.5s;
+
+    }
+
+    .nav-Header li {
+    background-color: rgb(22, 125, 214);
+    font-size: 25px;
+    margin-inline: 0px;
+
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+}
+
+/* .ocultar{
+    display: none !important;
+} */
