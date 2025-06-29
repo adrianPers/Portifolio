@@ -23,6 +23,9 @@
     transition: 0.5s;
     cursor: pointer;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-Header li:hover {
@@ -33,7 +36,7 @@
 
 .button-menu {
     background-color: rgba(0, 0, 0, 0.2);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     border: 0px;
@@ -41,9 +44,22 @@
     padding: 2px;
 }
 
-.button-menu span {
+
+
+
+.material-symbols-outlined {
     font-size: 35px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
+
+.nav-Header .material-symbols-outlined {
+    /* display: none; */
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -73,14 +89,25 @@
     }
 
     .nav-Header li {
-    background-color: rgb(22, 125, 214);
+    /* background-color: rgb(22, 125, 214); */
     font-size: 25px;
     margin-inline: 0px;
-
     padding: 10px;
     transition: 0.5s;
     cursor: pointer;
     border-radius: 0px;
+        flex-direction: row;
+}
+
+.button-menu {
+    display: flex;
+}
+
+.nav-Header .material-symbols-outlined {
+    display: inline;
+    /* background-color: red; */
+    margin-right: 10px;
+
 }
 
 }
