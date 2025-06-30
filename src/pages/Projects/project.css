@@ -1,0 +1,30 @@
+
+
+.Projects{
+    background: 
+    linear-gradient(
+        90deg,
+        rgb(19, 176, 200),
+        rgb(20, 114, 196)
+    );
+    /* background-color: white; */
+    
+    overflow: hidden;
+}
+
+.Projects h1{
+    font-size: 45px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+    /* backdrop-filter: blur(10px); */
+}
