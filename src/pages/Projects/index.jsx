@@ -4,6 +4,8 @@ import Project from '../../components/Project'
 import LinkButton from '../../components/LinkButton'
 import './project.css'
 
+import imgProject01 from '../../assets/img-projeto-01.png'
+
 const Projects = () => {
     return (
         <div className='Projects'>
@@ -16,8 +18,13 @@ const Projects = () => {
             </h1>
             <div className='box-projects'>
                 <Project
-                    linkBtnGithub='https://github.com/adrianPers'
-                    linkBtnProject='https://portifolio-dev-pereira.netlify.app/' />
+                    title='Osais Urbano'
+                    description='
+                    Site ficitício de busca de busca de hotéis feito em html, CSS e JS,
+                    Contém um simulador de busca com aplicação de filtros na página de Reservas.'
+                    img={imgProject01}
+                    linkBtnGithub='https://github.com/adrianPers/oasis-urbano'
+                    linkBtnProject='https://oasis-urbano.netlify.app/' />
                 <Project
                     linkBtnGithub='https://github.com/adrianPers'
                     linkBtnProject='https://portifolio-dev-pereira.netlify.app/' />

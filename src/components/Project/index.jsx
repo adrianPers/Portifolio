@@ -7,13 +7,14 @@ const Project = (props) => {
     return (
         <div className='Project'>
             
-            <img src={Foto} alt='foto de teste' />
-            <h3>Título</h3>
-            <p> descrição pequena descrição pequena
-                descrição pequena
-                descrição pequena
-                descrição pequena
-                </p>
+            <img 
+            src={props.img || Foto}
+            alt='foto do projeto'
+            title='foto do projeto'/>
+
+            <h3> {props.title || 'Projeto em construção'} </h3>
+
+            <p> {props.description || 'projeto em desenvolvimento, fique atento para eventuais atualizações.'} </p>
             <div className='box-links-btns' >
 
             <LinkButton

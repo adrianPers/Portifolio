@@ -6,6 +6,7 @@ const Home = () => {
     return(
         <div className='Home'>
             <Header page={'Home'}/>
+           <h1>Em construção</h1>
         </div>
     )
 }

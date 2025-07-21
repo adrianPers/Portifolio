@@ -14,7 +14,9 @@ const Services = () => {
     return (
         <div className='Services'>
             <Header page={'Services'} />
-            <div className=''>
+         <h1>Em construção</h1>
+
+            {/* <div className=''>
                 <ul className='list-services'>
 
                     <li className='img-list'>
@@ -59,7 +61,7 @@ const Services = () => {
                     title='title'
                     description='texto relativamente grande para descrever uma funcionalidade do site'/>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )

@@ -5,7 +5,7 @@ const Contacts = () => {
     return(
         <div className='Contacts'>
             <Header page={'Contacts'}/>
-            <h2>dsds</h2>
+            <h1>Em construção</h1>
         </div>
     )
 }
