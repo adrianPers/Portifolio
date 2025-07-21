@@ -1,0 +1,25 @@
+
+.Services{
+    /* background-color: aqua; */
+    /* height: 100vh; */
+}
+
+.list-services{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    /* align-items: flex-start; */
+}
+
+.img-list img{
+    height: 400px;
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features > h1{
+    width: 100%;
+}

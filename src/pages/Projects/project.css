@@ -1,15 +1,9 @@
 
 
 .Projects{
-    background: 
-    linear-gradient(
-        90deg,
-        rgb(19, 176, 200),
-        rgb(20, 114, 196)
-    );
+
     /* background-color: white; */
-    
-    overflow: hidden;
+    /* height: 100vh; */
 }
 
 .Projects h1{
