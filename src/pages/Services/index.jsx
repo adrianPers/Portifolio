@@ -1,13 +1,13 @@
 import './services.css'
 import Header from '../../components/Header'
-import List from '../../components/List'
-import Functionality from '../../components/Functionality'
-import Foto from '../../assets/foto-generica.png'
+// import List from '../../components/List'
+// import Functionality from '../../components/Functionality'
+// import Foto from '../../assets/foto-generica.png'
 
-import imgFunct01 from '../../assets/responsividade.png'
-import imgFunct02 from '../../assets/funcionalidade.png'
-import imgFunct03 from '../../assets/designer.png'
-import imgFunct04 from '../../assets/seo.png'
+// import imgFunct01 from '../../assets/responsividade.png'
+// import imgFunct02 from '../../assets/funcionalidade.png'
+// import imgFunct03 from '../../assets/designer.png'
+// import imgFunct04 from '../../assets/seo.png'
 
 
 const Services = () => {
